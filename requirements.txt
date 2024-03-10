@@ -1,0 +1,8 @@
+requests
+rich
+pyfiglet
+yaspin
+alive-progress
+pyperclip
+questionary
+html2text
