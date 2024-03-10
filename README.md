@@ -30,7 +30,8 @@ You can install VeilMail either by cloning the repository or using pip:
 1. Clone the repository: `git clone https://github.com/zadeson/veilmail.git`
 2. Navigate to the project directory: `cd veilmail`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python veilmail.py`
+4. Cd into the directory: `cd veilmail`
+5. Run the application: `python main.py`
 
 ### Option 2: Installing via Pip
 
