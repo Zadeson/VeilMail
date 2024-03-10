@@ -1,14 +1,14 @@
-# FlashMail: Your Go-To CLI Temporary Email Client
+# VeilMail: Your Go-To CLI Temporary Email Client
 
-🚀 FlashMail is a sleek, command-line email client tailored for handling temporary emails with ease, utilizing the 1secmail API.
+🚀 VeilMail is a sleek, command-line email client tailored for handling temporary emails with ease, utilizing the 1secmail API.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## Welcome to FlashMail 🌟
+## Welcome to VeilMail 🌟
 
-The ultimate command-line solution for managing temporary emails with speed and simplicity. FlashMail harnesses the power of the 1secmail API, delivering an intuitive and efficient email experience right in your terminal.
+The ultimate command-line solution for managing temporary emails with speed and simplicity. VeilMail harnesses the power of the 1secmail API, delivering an intuitive and efficient email experience right in your terminal.
 
 ## Key Features
 
@@ -23,27 +23,27 @@ The ultimate command-line solution for managing temporary emails with speed and 
 
 ## Installation
 
-You can install FlashMail either by cloning the repository or using pip:
+You can install VeilMail either by cloning the repository or using pip:
 
 ### Option 1: Cloning the Repository
 
-1. Clone the repository: `git clone https://github.com/zadeson/flashmail.git`
-2. Navigate to the project directory: `cd flashmail`
+1. Clone the repository: `git clone https://github.com/zadeson/veilmail.git`
+2. Navigate to the project directory: `cd veilmail`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python flashmail.py`
+4. Run the application: `python veilmail.py`
 
 ### Option 2: Installing via Pip
 
-1. Run `pip install git+https://github.com/zadeson/flashmail.git`
-2. Start FlashMail with `flashmail` command in your terminal
+1. Run `pip install git+https://github.com/zadeson/veilmail.git`
+2. Start VeilMail with `veilmail` command in your terminal
 
 ## Usage
 
-Run `python flashmail.py` (or just `flashmail` if installed via pip) and follow the interactive prompts.
+Run `python veilmail.py` (or just `veilmail` if installed via pip) and follow the interactive prompts.
 
 ## How it Works
 
-FlashMail operates through a series of straightforward CLI commands, providing a user-friendly interface to interact with your temporary email inbox. From fetching active domains, creating random or custom email addresses, to reading emails in a neatly formatted console - FlashMail does it all with ease.
+VeilMail operates through a series of straightforward CLI commands, providing a user-friendly interface to interact with your temporary email inbox. From fetching active domains, creating random or custom email addresses, to reading emails in a neatly formatted console - VeilMail does it all with ease.
 
 ## Contributing
 
@@ -62,4 +62,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Ethen Dixon - ethendixon@outlook.com
 
-Project Link: [https://github.com/Zadeson/flashmail](https://github.com/Zadeson/flashmail)
+Project Link: [https://github.com/Zadeson/veilmail](https://github.com/Zadeson/veilmail)
