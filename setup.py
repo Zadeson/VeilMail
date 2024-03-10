@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='FlashMail',
+    name='VeilMail',
     version='1.0.0',
-    py_modules=['flashmail'],
+    py_modules=['veilmail'],
     install_requires=[
         'requests',
         'rich',
@@ -23,7 +23,7 @@ setup(
     description='A simple command-line email client using the 1secmail API.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/Zadeson/flashmail',
+    url='https://github.com/Zadeson/veilmail',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
