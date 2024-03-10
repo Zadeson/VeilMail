@@ -147,9 +147,9 @@ def print_inbox(email, inbox, app_name):
         inbox (list): A list of dictionaries representing the inbox messages.
     """
     console.clear()
-    f = Figlet(font='speed')
+    f = Figlet(font='ANSI_shadow')
     rendered_text = f.renderText(app_name)
-    header_text = Text(rendered_text, style="bold blue")
+    header_text = Text(rendered_text, style="bold gray")
 
     console.print(header_text)
 
@@ -175,9 +175,9 @@ def print_email(message, email, message_id, app_name):
     """
     console.clear()
     
-    f = Figlet(font='speed')
+    f = Figlet(font='ANSI_shadow')
     rendered_text = f.renderText(app_name)
-    header_text = Text(rendered_text, style="bold blue")
+    header_text = Text(rendered_text, style="bold gray")
 
     console.print(header_text)
 
@@ -194,17 +194,17 @@ def print_email(message, email, message_id, app_name):
 
 def main():
     """
-    Entry point of the FlashMail program.
+    Entry point of the VeilMail program.
     """
     # Application Information
-    app_name = "FlashMail"
+    app_name = "VeilMail"
     app_version = "1.0.0" # Semantic Versioning: MAJOR.MINOR.PATCH
     description = "A simple command-line email client to view temporary emails using the 1secmail API."
     console = Console()
     console.clear()
     
     # Render App Name with ASCII Art
-    f = Figlet(font='speed')
+    f = Figlet(font='ANSI_shadow')
     rendered_text = f.renderText(app_name)
 
     # Prepare the header text
