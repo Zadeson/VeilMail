@@ -199,7 +199,7 @@ def main():
     """
     # Application Information
     app_name = "VeilMail"
-    app_version = "1.0.0" # Semantic Versioning: MAJOR.MINOR.PATCH
+    app_version = "1.0.9" # Semantic Versioning: MAJOR.MINOR.PATCH
     description = "A simple command-line email client to view temporary emails using the 1secmail API."
     console = Console()
     console.clear()
