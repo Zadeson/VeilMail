@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'veilmail=veilmail.main:main',
+            'veilmail=VeilMail.main:main',
         ],
     },
     author='Ethen Dixon',
