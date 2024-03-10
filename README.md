@@ -23,12 +23,23 @@ The ultimate command-line solution for managing temporary emails with speed and 
 
 ## Installation
 
+You can install FlashMail either by cloning the repository or using pip:
+
+### Option 1: Cloning the Repository
+
 1. Clone the repository: `git clone https://github.com/zadeson/flashmail.git`
-2. Install dependencies: `pip install -r requirements.txt`
+2. Navigate to the project directory: `cd flashmail`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run the application: `python flashmail.py`
+
+### Option 2: Installing via Pip
+
+1. Run `pip install git+https://github.com/zadeson/flashmail.git`
+2. Start FlashMail with `flashmail` command in your terminal
 
 ## Usage
 
-Run `python flashmail.py` and follow the interactive prompts.
+Run `python flashmail.py` (or just `flashmail` if installed via pip) and follow the interactive prompts.
 
 ## How it Works
 
@@ -49,7 +60,6 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-
 Ethen Dixon - ethendixon@outlook.com
 
-Project Link: [https://github.com/zadeson/flashmail](https://github.com/zadeson/flashmail)
+Project Link: [https://github.com/Zadeson/flashmail](https://github.com/Zadeson/flashmail)
