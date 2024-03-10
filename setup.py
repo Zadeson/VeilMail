@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='VeilMail',
     version='1.0.7',
-    py_modules=['veilmail'],
+    packages=find_packages(),
     install_requires=[
         'requests',
         'rich',
