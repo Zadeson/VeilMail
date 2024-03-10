@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='VeilMail',
-    version='1.0.4',
+    version='1.0.5',
     py_modules=['veilmail'],
     install_requires=[
         'requests',
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'veilmail=VeilMail.main:main',
+            'veilmail=veilmail.main:main',
         ],
     },
     author='Ethen Dixon',
