@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='VeilMail',
-    version='1.0.7',
+    version='1.0.8',
     packages=find_packages(),
     install_requires=[
         'requests',
