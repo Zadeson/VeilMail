@@ -21,7 +21,7 @@ setup(
     author='Ethen Dixon',
     author_email='ethendixon@outlook.com',
     description='A simple command-line email client using the 1secmail API.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/Zadeson/veilmail',
     classifiers=[
