@@ -153,7 +153,7 @@ def print_inbox(email, inbox, app_name):
 
     console.print(header_text)
 
-    header = ("[bold cyan]" + "-"*25 + f"| Inbox {email} |" + "-"*25 + "[/bold cyan]\n")
+    header = ("[bold gray]" + "-"*25 + f"| Inbox {email} |" + "-"*25 + "[/bold gray]\n")
     console.print(header)
     console.print("Command Options: view <no>, refresh, quit\n")
     if len(inbox) == 0:
@@ -162,7 +162,7 @@ def print_inbox(email, inbox, app_name):
         for i, message in enumerate(inbox):
             console.print(f"[bold green]{i}[/bold green] - {message['from']} - {message['subject']} - {message['date']}\n")
     header_length = len("-"*25 + f"| Inbox {email} |" + "-"*25)
-    console.print("[bold cyan]" + "-" * header_length + "[/bold cyan]")
+    console.print("[bold gray]" + "-" * header_length + "[/bold gray]")
 
 def print_email(message, email, message_id, app_name):
     """
@@ -181,7 +181,7 @@ def print_email(message, email, message_id, app_name):
 
     console.print(header_text)
 
-    header = ("[bold cyan]" + "-"*25 + f"| {email} - viewing email {message_id} |" + "-"*25 + "[/bold cyan]\n")
+    header = ("[bold gray]" + "-"*25 + f"| {email} - viewing email {message_id} |" + "-"*25 + "[/bold gray]\n")
     console.print(header)
     console.print("From: " + "[bold green]" + message['from'] + "[/bold green]")
     console.print("Subject: " + "[bold yellow]" + message['subject'] + "[/bold yellow]")
@@ -190,6 +190,7 @@ def print_email(message, email, message_id, app_name):
     console.print("-" * header_length)
     console.print(message['textBody'], justify="left")
     console.print("-" * header_length)
+    console.printconsole.print("[bold gray]" + "-" * header_length + "[/bold gray]")
     questionary.confirm("Return to Inbox?").ask()
 
 def main():
@@ -208,7 +209,7 @@ def main():
     rendered_text = f.renderText(app_name)
 
     # Prepare the header text
-    header_text = Text(rendered_text, style="bold blue")
+    header_text = Text(rendered_text, style="bold gray")
     version_text = Text(f"Version: {app_version}\n", style="bold green")
     description_text = Text(description + "\n", style="italic")
     
