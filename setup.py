@@ -14,10 +14,11 @@ setup(
         'questionary',
         'html2text'
     ],
-    entry_points='''
-        [console_scripts]
-        flashmail=flashmail:main
-    ''',
+    entry_points={
+        'console_scripts': [
+            'veilmail=veilmail.main:main',
+        ],
+    },
     author='Ethen Dixon',
     author_email='ethendixon@outlook.com',
     description='A simple command-line email client using the 1secmail API.',
